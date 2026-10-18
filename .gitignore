@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Build Output
+dist/
+build/
+
+# Uploads & Temp Data
+backend/uploads/*
+!backend/uploads/.gitkeep
+carebridge.db
+scratch/
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
